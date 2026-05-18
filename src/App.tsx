@@ -680,7 +680,6 @@ function App() {
           type="button"
           className="brand-name brand-name-button"
           onClick={() => void returnHome()}
-          aria-label="Return to home"
           title="Return to home"
         >
           Posture Patrol

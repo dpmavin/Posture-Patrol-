@@ -124,6 +124,7 @@ export function TweaksPanel({ settings, onChange, onPreviewCue }: Props) {
       <Row label="Audio cue">
         <select
           className="tweaks-select"
+          aria-label="Audio cue"
           value={settings.cue}
           onChange={(e) => {
             const c = e.target.value as CuePreset;
