@@ -1,0 +1,66 @@
+:root {
+  --bg: #16120d;
+  --bg-deep: #0f0c08;
+  --bg-card: #1f1812;
+  --text: oklch(0.94 0.024 80);
+  --text-dim: oklch(0.94 0.024 80 / 0.65);
+  --text-faint: oklch(0.94 0.024 80 / 0.38);
+  --warm-brown: #3d2817;
+  --warm-brown-soft: #5c4530;
+  --warm-brown-faint: #816548;
+  --warm-cream: #f5ead5;
+  --sage: #a8c5a8;
+  --sage-soft: rgba(168, 197, 168, 0.22);
+  --sage-faint: rgba(168, 197, 168, 0.12);
+  --serif: 'Merriweather', Georgia, 'Times New Roman', serif;
+  --good: oklch(0.78 0.11 150);
+  --slouch: oklch(0.82 0.12 88);
+  --sustained: oklch(0.74 0.13 50);
+  --glass: oklch(0.94 0.008 85 / 0.05);
+  --glass-strong: oklch(0.94 0.008 85 / 0.08);
+  --glass-border: oklch(0.94 0.008 85 / 0.12);
+  --cream: oklch(0.94 0.008 85);
+
+  font-family: 'Nunito Sans', system-ui, -apple-system, sans-serif;
+  font-weight: 300;
+  color-scheme: dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  margin: 0;
+}
