@@ -1090,7 +1090,6 @@
 .splash-title {
   font-family: var(--serif);
   font-weight: 700;
-  font-style: italic;
   font-size: 30px;
   color: var(--warm-brown);
   line-height: 1.15;
